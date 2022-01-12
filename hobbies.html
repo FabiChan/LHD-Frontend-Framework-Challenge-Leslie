@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Myself</a>
+            <a class="active" href="hobbies.html">Hobbies</a>
+            <a href="dream.html">My Big Dream</a>
+            <button id="darkMode" type="button" class="btn btn-outline-light">Dark Mode</button>
+        </div>
+        <h1 class="headingLeft">My Hobbies</h1>
+        <h2 class="subheadingLeft">Just trying to be interesting</h2>
+        <div class="lead">
+            <p>As any other human being, I have hobbies. I'm a very active person, so I love to do many different things. Here I present to you some of them. </p>
+            <img src="https://miro.medium.com/max/1200/1*_Zqfz3mcyO_Ho1qTyuj_eg.png" alt="Hobbies" id="image2">
+            <ul>
+                <li>Playing the guitar</li>
+                <li>Listening to grunge and rock music</li>
+                <li>Coding</li>
+                <li>Learning through online courses</li>
+                <li>Reading books and scientific research papers</li>
+                <li>Baking cupcakes</li>
+                <li>Hanging out with friends, boyfriend and family</li>
+                <li>Making stop-motion movies</li>
+                <li>Acting</li>
+                <li>Taking and editing pictures</li>
+                <li>Studying</li>
+                <li>Playing cheess</li>
+                <li>Watching movies and series</li>
+                <li>Taking care of the planet</li>
+                <li>Thinking of ideas to change the world</li>
+                <li>And more...!</li>
+                </ul>
+        </div>
+        <script>
+            document.querySelector('#darkMode').onclick = function() {
+                if (document.querySelector('body').style.backgroundColor === 'white') {
+                    document.querySelector('body').style.backgroundColor = 'black';
+                    document.querySelector('h1').style.color = 'white';
+                    document.querySelector('.lead').style.color = 'white';
+                }
+                else {
+                    document.querySelector('body').style.backgroundColor = 'white';
+                    document.querySelector('h1').style.color = 'black';
+                    document.querySelector('.lead').style.color = 'black';
+                }
+            }
+        </script>
+    </body>
+</html>

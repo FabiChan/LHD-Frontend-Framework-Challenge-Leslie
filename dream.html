@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Myself</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a class="active" href="dream.html">My Big Dream</a>
+            <button id="darkMode" type="button" class="btn btn-outline-light">Dark Mode</button>
+        </div>
+        <h1 class="headingRight">My Big Dream</h1>
+        <h2 class="subheadingRight">What's my biggest dream?</h2>
+        <div class="lead">
+            <p>Ever since I was little, I had this dream of making something really big and leave a mark in hummanity. I want to help my community with the use of technology and make an improvement in our lifestyle.<br>I still don't know what am I going to do or how am I going to leave a mark on Earth, but I am sure I will do it. </p>
+        </div>
+        <img src="https://themighty.com/wp-content/uploads/2020/05/GettyImages-1156473160-1280x640.jpg" alt="Daydreaming" id="Daydreaming">
+        <script>
+            document.querySelector('#darkMode').onclick = function() {
+                if (document.querySelector('body').style.backgroundColor === 'white') {
+                    document.querySelector('body').style.backgroundColor = 'black';
+                    document.querySelector('h1').style.color = 'white';
+                    document.querySelector('.lead').style.color = 'white';
+                }
+                else {
+                    document.querySelector('body').style.backgroundColor = 'white';
+                    document.querySelector('h1').style.color = 'black';
+                    document.querySelector('.lead').style.color = 'black';
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <style>
+            body {
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About Myself</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="dream.html">My Big Dream</a>
+            <button id="darkMode" type="button" class="btn btn-outline-light">Dark Mode</button>
+        </div>
+        <img src="https://cdn.lowgif.com/medium/f9e6df8af2e9f204-spongebob-meme-dank-meme-gifs-find-share-on-giphy.gif" alt="Dank gif" id="image"/>
+        <h1 class="headingLeft">Welcome to my first webpage!</h1>
+        <h2 class="subheadingLeft">This is something exciting! I hope you like it</h2>
+        <p class="lead first">Along this website, you will get to know me a little better. In the <b>"About Myself"</b> section, you will find my basic info. In the <b>"Hobbies</b> section, well, as the name suggests, you can find some of the hobbies I like to do. And finally, in the <b>"My Big Dream"</b> section, you will find out what's my biggest dream to accomplish.</p>
+        <script>
+            document.querySelector('#darkMode').onclick = function() {
+                if (document.querySelector('body').style.backgroundColor === 'white') {
+                    document.querySelector('body').style.backgroundColor = 'black';
+                    document.querySelector('h1').style.color = 'white';
+                    document.querySelector('.lead').style.color = 'white';
+                }
+                else {
+                    document.querySelector('body').style.backgroundColor = 'white';
+                    document.querySelector('h1').style.color = 'black';
+                    document.querySelector('.lead').style.color = 'black';
+                }
+            }
+        </script>
+    </body>
+</html>

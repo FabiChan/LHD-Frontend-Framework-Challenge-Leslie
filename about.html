@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="about.html">About Myself</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="dream.html">My Big Dream</a>
+            <button id="darkMode" type="button" class="btn btn-outline-light">Dark Mode</button>
+        </div>
+        <img src="leslie.jpeg" alt="An image of myself!" id="leslie">
+        <h1 class="headingRight">Who am I?</h1>
+        <h2 class="subheadingRight">Thats's a good question</h2>
+        <div class="lead second">
+            <p>Hello world! My name is Leslie Fabiola López Rosales, an 18 year old Mexican girl who is studying a career in technology.</p>
+            <p>A fun fact about myself is that I made my first mobile app at the age of 13 using <mark><b>MIT App Inventor</b></mark>. Even though I programmed it using "blocks", it is still a big accomplishment for me and this gave me interest in studying computer science.</p>
+        </div>
+        <script>
+            document.querySelector('#darkMode').onclick = function() {
+                if (document.querySelector('body').style.backgroundColor === 'white') {
+                    document.querySelector('body').style.backgroundColor = 'black';
+                    document.querySelector('h1').style.color = 'white';
+                    document.querySelector('.lead').style.color = 'white';
+                }
+                else {
+                    document.querySelector('body').style.backgroundColor = 'white';
+                    document.querySelector('h1').style.color = 'black';
+                    document.querySelector('.lead').style.color = 'black';
+                }
+            }
+        </script>
+    </body>
+</html>

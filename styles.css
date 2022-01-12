@@ -1,0 +1,130 @@
+/* Style h1 index and hobbies */
+.headingLeft {
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 15px;
+  color: black;
+  font-size: 40px;
+}
+
+/* Style h2 index and hobbies */
+.subheadingLeft {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #9d56cc;
+  font-size: 20px;
+}
+
+/* Style h1 about and dream */
+.headingRight {
+  margin-left: 1000px;
+  margin-top: 40px;
+  margin-right: 15px;
+  color: black;
+  font-size: 40px;
+}
+
+/* Style h2 about and dream */
+.subheadingRight {
+  margin-left: 1050px;
+  margin-top: 5px;
+  margin-right: 15px;
+  color: #9d56cc;
+  font-size: 20px;
+}
+
+/* Style parragrapghs for index and hobbies */
+.first {
+  color: black;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 600px;
+}
+
+/* Style paragraphs for about and dream */
+.second {
+  color: black;
+  margin-top: 30px;
+  margin-left: 600px;
+  margin-right: 15px;
+}
+
+/* Style single paragrapghs */
+p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Add a color to the active/current link */
+.active {
+  background-color: #9d56cc;
+  color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #58525c;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 26px 28px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style Dark Mode button */
+#darkMode {
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+/* Style dank image-gif of the index page */
+#image {
+  float: right;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+/* Style image of hobbies of the Hobbies page */
+#image2 {
+  float: right;
+  margin-top: 0px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 380px;
+  width:600px;
+}
+/* Style my picture */
+#leslie {
+  float: left;
+  margin-top: 40px;
+  margin-left: 50px;
+  height: 350px;
+  width: 350px;
+}
+
+#Daydreaming {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Style highlighted text of the about page */
+mark {
+  background-color: #9d56cc;
+  color: white;
+}
